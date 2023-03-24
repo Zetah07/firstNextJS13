@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 100px;
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
