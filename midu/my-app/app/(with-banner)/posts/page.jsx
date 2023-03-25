@@ -1,4 +1,4 @@
-import ListOfPosts from "../../components/ListOfPosts";
+import ListOfPosts from "../../../components/ListOfPosts";
 
 export default function posts() {
   return(

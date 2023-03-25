@@ -16,7 +16,7 @@ export default async function Post({ children, params }) {
       <article>
         <h1 className="font-bold text-xl text-blue-500">{post.title}</h1>
         <p className="font-thin text-sm">{post.body}</p>
-        <Link href={`/posts/${id}/comments`}>Ver comentarios</Link>
+        <Link href={`/posts/${id}/comments`} className="text-blue-600 font-extrabold">Ver comentarios</Link>
         {children}
       </article>
     </div>
